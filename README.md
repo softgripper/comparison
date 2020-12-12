@@ -31,9 +31,9 @@ Which can be rectified by adding the following to your package.json
 ```json
 {
     ...,
-	"resolutions": {
-		"snowpack": "2.17.0"
-	}
+    "resolutions": {
+        "snowpack": "2.17.0"
+    }
 }
 ```
 
