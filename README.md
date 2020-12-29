@@ -498,7 +498,6 @@ test('press toggle item', () => {
   const checkbox = result.getByLabelText(/test/i) as HTMLInputElement;
   fireEvent.click(checkbox);
 
-  // alternately use mocha service
   expect(toggleClicked).toBeTruthy();
 });
 ```
