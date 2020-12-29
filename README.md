@@ -314,7 +314,7 @@ We bind the "value" property of the input to our text variable - which gives us 
 
 The on:click handler appends our new todo to the store, then sets our text to ''.
 
-Important node - Svelte's reactivity is triggered on reassign. You can do this a couple of ways
+Important note - Svelte's reactivity is triggered on reassign. You can do this a couple of ways
 
 ```js
 function addNumber() {
